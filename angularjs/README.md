@@ -22,7 +22,7 @@ $ docker-compose -f docker-compose-dev.yml up
 To run this stack from the prebuilt Docker images from Docker Hub:
 
 ```
-$ cd angular-hello-world
+$ cd angularjs
 $ docker-compose up -d
 ```
 
