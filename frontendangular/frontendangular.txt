@@ -1,0 +1,26 @@
+Steps to deploy a Angular JS FE application,
+
+# Login into the deployment server with the respective user that has permissions to deploy.
+
+ssh username@<server-name>
+
+# Clone the Git repository from the desired directory(Based on method followed either https/synced keys)
+
+git clone <https url of the git repo> or git clone git@<url of repo>
+
+# Get into the cloned directory
+
+Install the project dependencies using npm 
+
+Update the baseUrl in src/environments/environment.<en>.ts (Depending on the environment replace the en value accordingly)
+
+For aws it would always be /api, Run
+
+npx ng build --en(Depending on the environment replace the en value accordingly) in root of the project to build
+
+If you have updated the baseUrl to /api for AWS run
+
+aws s3 sync dist s3://BUCKET_NAME --delete
+
+Once deployment is done, you can inform the respected FE team/testing team to validate the deployment.
+

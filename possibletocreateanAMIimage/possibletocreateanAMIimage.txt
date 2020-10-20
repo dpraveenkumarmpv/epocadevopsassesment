@@ -1,0 +1,3 @@
+Yes, we can create.
+
+Instance will not get shut down. But AWS will not give the guaranty to the file system integrated on instance.

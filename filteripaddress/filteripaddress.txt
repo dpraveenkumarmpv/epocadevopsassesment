@@ -1,0 +1,5 @@
+cat /path of application logs/ | grep -i IP
+
+for example: if we want to find out the IP from aphace logs then it would be
+
+cat /var/log/httpd/ | grep -i IP

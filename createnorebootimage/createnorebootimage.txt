@@ -1,0 +1,5 @@
+To create a no reboot image,
+
+1. right click on the instance and click on Image option
+2. Then select Create Image option
+3. check the third option "no reboot" option to create image.
