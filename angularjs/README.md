@@ -12,7 +12,7 @@ To run this stack from source:
 
 ```
 $ git clone <repo-name>
-$ cd angular-hello-world
+$ cd angularjs
 $ mvn package
 $ docker-compose -f docker-compose-dev.yml up
 ```
