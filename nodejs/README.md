@@ -7,7 +7,7 @@ Since the applciations are already running and we need to dockerise the applicat
 
 ## Build Docker image
 
-docker build -t web
+docker build -t web .
 
 
 ## Build using docker-compose
