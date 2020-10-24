@@ -24,5 +24,4 @@ aws rds restore-db-instance-from-db-snapshot \
     --publicly-accessible \
     --no-multi-az \
     --no-auto-minor-version-upgrade \
-    --vpc-security-group-ids $securitygroup_id \
     --db-subnet-group-name $subnetgroup_id
